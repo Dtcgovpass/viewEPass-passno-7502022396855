@@ -1,0 +1,175 @@
+.div{
+    background-image: url(shubam.png);
+    height:110vh;
+   
+ 
+    margin-top: 70px;
+    margin-left: 12px;
+    margin-right: 12px;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #d9eeef;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+header{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    background-color: white;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.heding{
+    font-size: 24px;
+    line-height: 1.5;
+    
+    
+    font-weight: bold;
+    color: #01a2a6;
+}
+
+.headingcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.imegcont{
+    height: 250px;
+    width: 250px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.imeg{
+    width: 100%;
+    /*height: 100%;*/
+    height: 117vh;
+}
+
+.Namecont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.type{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+
+    
+}
+
+b{
+    margin-bottom: 20px;
+}
+
+.blink{
+    text-transform: translate(-50,-50);
+}
+
+
+.tras{
+    animation:blink 2.5s linear infinite;
+    color: #2f8a12;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    25%{opacity: .2;}
+    50%{opacity: .5;}
+    75%{opacity: 7;}
+    100%{opacity: 1;}
+}
+
+.busno{
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.infocont{
+    justify-content: center ;
+}
+
+.deadline{
+    font-size: 20px;
+    color: red;
+
+}
+
+.deadlinecont{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 17px;
+
+}
+
+.signcont{
+    width: 190px;
+    height: 97px;
+}
+
+.signimg{
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+}
+
+.qrcont{
+    justify-content: center;
+    width: 190px;
+    height: 97px;
+}
+.qrimg{
+    padding: 8px;
+}
+
+.footer{
+    background-color: #01a2a6;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+
+}
+
+.footcont{
+    margin-top: 10vh;
+}
+
+.fontwaght900{
+    font-weight: 900;
+}
