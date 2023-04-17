@@ -81,6 +81,7 @@ header{
     align-items: center;
     font-weight: bolder;
     font-size: 20px;
+   
     
 }
 
@@ -96,7 +97,14 @@ header{
 
 b{
     margin-bottom: 20px;
+    
 }
+.faltu{
+    text-align: center;
+}
+
+
+
 
 .blink{
     text-transform: translate(-50,-50);
@@ -133,6 +141,7 @@ b{
 
 .infocont{
     justify-content: center ;
+    flex-direction: column;
 }
 
 .deadline{
