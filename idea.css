@@ -100,7 +100,7 @@ header{
 .heding{
     font-size: 24px;
     line-height: 1.5;
-    
+    text-align: center;
     
     font-weight: bold;
     color: #01a2a6;
@@ -148,7 +148,7 @@ header{
     justify-content: center;
     align-items: center;
     font-weight: bolder;
-
+text-align: center;
     
 }
 
