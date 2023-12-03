@@ -1,0 +1,284 @@
+.div{
+    background-image: url(shubam.png);
+    
+   border: 1px solid #ddd;
+ 
+    margin-top: 70px;
+    margin-left: 12px;
+    margin-right: 12px;
+      background-size: 127px 97px;
+
+
+   
+}
+
+
+.fonts{
+font-family: sans-serif;
+}
+
+
+
+.backdiv{
+   background-color: transparent;
+}
+
+.kalu{
+    display: none;
+}
+
+@media screen and (min-width: 617px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+   .backdiv{
+    padding: 1em;
+    background: #F9F9F9;
+    margin-top: 35;
+    border: 1px solid #DDD;
+    margin-top: 3;
+    padding: 1em;
+    background: #F9F9F9;
+    
+    margin:9vw auto;
+    min-width: 67vw;
+    
+    margin-left: 9;
+
+
+}
+.footer{
+    min-width:100%;
+}
+ 
+.footcont{
+width:100%
+    }
+
+.div{
+    margin-top: 0;
+}
+.kalu{
+    background-color: black;
+    width: 100%;
+    height:80vh;
+    display: block;
+}
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #d9eeef;
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+}
+
+header{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    background-color: white;
+    color: #01a2a6;
+    z-index: 100;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.heding{
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    
+    font-weight: bold;
+    color: #01a2a6;
+}
+
+.headingcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 1px solid #ddd;
+}
+
+.imegcont{
+    height: 250px;
+    width: 250px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.imeg{
+    width: 100%;
+    opacity: 65%;
+   
+}
+
+.Namecont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+
+.type{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+text-align: center;
+    
+}
+
+b{
+    margin-bottom: 20px;
+}
+
+.blink{
+    text-transform: translate(-50,-50);
+}
+
+
+.tras{
+    animation:blink 2.5s linear infinite;
+    color: #2f8a12;
+    font-size: 25px;
+    font-weight: bolder;
+}
+/*
+@keyframes blink{
+    0%{opacity: 0;}
+    25%{opacity: .2;}
+    50%{opacity: .5;}
+    75%{opacity: 7;}
+    100%{opacity: 1;}
+   
+
+}
+*/
+@keyframes blink {
+    0% { opacity: 0; visibility: hidden; }
+    10% { opacity: 0.2; visibility: visible; }
+    20% { opacity: 0.5; }
+    30% { opacity: 0.7; }
+    40% { opacity: 0.9; }
+    50% { opacity: 1; }
+    60% { opacity: 0.9; }
+    70% { opacity: 0.7; }
+    80% { opacity: 0.5; }
+    90% { opacity: 0.2; visibility: visible; }
+    100% { opacity: 0; visibility: hidden; }
+  }
+  
+.busno{
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.infocont{
+    justify-content: center ;
+    flex-direction: column;
+}
+
+.deadline{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+
+}
+
+.deadlinecont{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 17px;
+
+
+}
+.contqrsign{
+    width: 100%;
+}
+
+
+.signcont{
+    display: flex;
+   
+   
+    width: 50%;
+    height: 97px;
+}
+
+.signimg{
+    width: 80px;
+    height: 80px;
+    padding: 8px;
+}
+
+.qrcont{
+    display: flex;
+    justify-content: center;
+    
+    width: 50%;
+    align-items: center;
+}
+.qrimg{
+    padding: 8px;
+    width: 65px;
+    height: 65px;
+    
+
+}
+
+.footer{
+    background-color: #01a2a6;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+
+}
+
+.footcont{
+    margin-top: 10vh;
+}
+
+.fontwaght900{
+    font-weight: 900;
+}
+
+.border{
+    border: 1px solid #ddd;
+}
+
+.busnoIdCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    padding: 0 15px;
+}
